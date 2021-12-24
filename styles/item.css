@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+}
+
+.main {
+    background-color: #222;
+    color: white;
+}
+
+.menu {
+    margin-left: 10px;
+}
+
+.menu ul {
+    display: inline-flex;
+
+}
+
+
+.to-list {
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(90, 10, 90);
+}
+
+.to-list:hover {
+    background-color: rgb(120, 10, 145);
+}
+
+.active-tab {
+	background-color: rgb(120, 10, 145);
+}
+
+.content {
+    background-color: #333;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    font-size: 16pt;
+}
+
+.poster {
+    float: right;
+    position: relative;
+    border-radius: 10px;
+    max-width: 250px;
+    min-width: 250px;
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.name {
+    padding: 10px 10px 10px 10px;
+}
+
+.item ul li, p {
+    padding: 10px 10px 10px 10px;
+}
+
+

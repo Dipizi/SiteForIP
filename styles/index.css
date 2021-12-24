@@ -1,0 +1,36 @@
+.head-background {
+    background-image: url(/assets/head-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.nav-menu {
+    background-color: #333;
+    height: 50px;
+    border-top: 3px solid rgb(120, 10, 145);
+    border-bottom: 3px solid rgb(120, 10, 145);
+}
+
+.nav-menu ul {
+    display: inline-flex;
+    height: 100%;
+    list-style-type: none;
+}
+
+.nav-menu ul li {
+    padding: 10px 10px 10px 10px;
+    transition: background .4s;
+}
+
+.nav-menu ul li:hover {
+    background-color: rgb(120, 10, 145);
+}
+
+.nav-menu ul li a {
+    font-size: 16pt;
+    color: white;
+    text-decoration-line: none;
+}
+

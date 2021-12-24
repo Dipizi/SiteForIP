@@ -1,0 +1,68 @@
+.auth-block ul {
+    display: inline-flex;
+    height: 40px;
+    list-style-type: none;
+}
+
+.auth-block {
+    margin: 40px 80px 0 0;
+    background-color:rgb(90, 10, 90);
+    float: right;
+}
+
+.auth-block ul li a {
+    font-size: 16pt;
+    color: white;
+    text-decoration-line: none;
+}
+
+.auth-block ul li:hover {
+    background-color: rgb(120, 10, 145);
+}
+
+.auth-block ul li {
+    text-align: center;
+    width: 120px;
+    padding: 7px 10px 0px 10px;
+}
+
+.user-data {
+    background-color: red;
+    height: 100px;
+}
+
+.head-background {
+    background-image: url(/assets/head-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+}
+
+.nav-menu {
+    background-color: #333;
+    height: 50px;
+    border-top: 3px solid rgb(120, 10, 145);
+    border-bottom: 3px solid rgb(120, 10, 145);
+}
+
+.nav-menu ul {
+    display: inline-flex;
+    height: 100%;
+    list-style-type: none;
+}
+
+.nav-menu ul li {
+    padding: 10px 10px 10px 10px;
+    transition: background .4s;
+}
+
+.nav-menu ul li a {
+    font-size: 16pt;
+    color: white;
+    text-decoration-line: none;
+}
+
+.nav-menu ul li:hover {
+    background-color: rgb(120, 10, 145);
+}

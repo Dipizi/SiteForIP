@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #222;
+}
+
+.main-block {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 100%;
+	position: relative;
+	background-color: #333;
+}
